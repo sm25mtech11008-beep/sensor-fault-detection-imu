@@ -246,7 +246,7 @@ Click the badge below to open each notebook directly in Colab:
 | Bavan Prabahar | SM25mtech11009 |
 
 **Course:** Automotive Communication and Sensing
-**Institution:** NIT / MTECH Program
+**Institution:** IIT Hyderabad
 
 ---
 
