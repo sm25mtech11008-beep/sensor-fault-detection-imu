@@ -1,0 +1,37 @@
+# Data (1.1 GB, fetched by scripts/download_pvs.sh)
+PVS_Dataset/
+*.csv.gz
+
+# Generated artefacts
+results/cache/
+results/models/*.pkl
+outputs_temp_phase*/
+report_plots/
+*.parquet
+*.pkl
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# scratch prediction outputs
+results/*_predictions.csv
+results/*.log
