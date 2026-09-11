@@ -1,0 +1,9 @@
+recipe,class,unique_ratio,raw_real_data
+"v1 (Gaussian noise, no quantisation)",normal,0.99,0.16
+"v1 (Gaussian noise, no quantisation)",noise_fault,0.99,0.16
+"v1 (Gaussian noise, no quantisation)",bias_fault,0.99,0.16
+"v1 (Gaussian noise, no quantisation)",flatline_fault,0.57,0.16
+"v2 (no added noise, grid-preserving)",normal,0.16,0.16
+"v2 (no added noise, grid-preserving)",noise_fault,0.2,0.16
+"v2 (no added noise, grid-preserving)",bias_fault,0.26,0.16
+"v2 (no added noise, grid-preserving)",flatline_fault,0.01,0.16

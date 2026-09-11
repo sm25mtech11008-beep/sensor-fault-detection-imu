@@ -1,0 +1,19 @@
+Model,Protocol,Accuracy,Balanced Acc,F1 Macro,MCC,Fit (s),Infer (ms),n_train,n_test,F1[normal],F1[noise_fault],F1[bias_fault],F1[flatline_fault]
+Majority Baseline,leave-out Fiat Bravo,24.79,25.0,9.93,0.0,0.02,0.0003,28712,14496,0.0,0.0,39.73,0.0
+Decision Stump,leave-out Fiat Bravo,98.85,98.84,98.85,0.9847,0.23,0.0006,28712,14496,97.98,99.1,98.43,99.88
+Logistic Regression,leave-out Fiat Bravo,99.18,99.17,99.17,0.9891,0.55,0.0003,28712,14496,98.37,99.22,99.29,99.83
+Random Forest,leave-out Fiat Bravo,99.63,99.62,99.63,0.995,7.88,0.0166,28712,14496,99.26,99.67,99.71,99.87
+HistGradientBoosting,leave-out Fiat Bravo,99.65,99.64,99.65,0.9953,3.2,0.0246,28712,14496,99.29,99.62,99.78,99.89
+XGBoost,leave-out Fiat Bravo,99.7,99.69,99.69,0.996,11.18,0.0417,28712,14496,99.39,99.72,99.79,99.88
+Majority Baseline,leave-out Fiat Palio,25.52,25.0,10.17,0.0,0.08,0.0014,29468,13740,0.0,0.0,40.67,0.0
+Decision Stump,leave-out Fiat Palio,98.91,98.9,98.91,0.9855,1.04,0.0015,29468,13740,98.32,98.92,98.44,99.96
+Logistic Regression,leave-out Fiat Palio,99.26,99.24,99.25,0.9901,1.79,0.0012,29468,13740,98.58,98.91,99.59,99.94
+Random Forest,leave-out Fiat Palio,99.66,99.65,99.66,0.9954,13.29,0.0271,29468,13740,99.38,99.58,99.71,99.96
+HistGradientBoosting,leave-out Fiat Palio,99.7,99.7,99.7,0.996,5.41,0.0252,29468,13740,99.45,99.59,99.8,99.96
+XGBoost,leave-out Fiat Palio,99.69,99.69,99.69,0.9959,9.14,0.0125,29468,13740,99.44,99.56,99.81,99.96
+Majority Baseline,leave-out VW Saveiro,24.53,25.0,9.85,0.0,0.04,0.0006,28236,14972,0.0,0.0,0.0,39.39
+Decision Stump,leave-out VW Saveiro,98.76,98.77,98.78,0.9835,0.41,0.0008,28236,14972,98.12,98.87,98.23,99.89
+Logistic Regression,leave-out VW Saveiro,99.42,99.42,99.42,0.9923,0.79,0.0007,28236,14972,98.95,99.54,99.38,99.82
+Random Forest,leave-out VW Saveiro,99.62,99.62,99.62,0.9949,8.15,0.02,28236,14972,99.3,99.69,99.61,99.89
+HistGradientBoosting,leave-out VW Saveiro,99.67,99.67,99.67,0.9955,3.17,0.0261,28236,14972,99.38,99.69,99.71,99.89
+XGBoost,leave-out VW Saveiro,99.67,99.67,99.67,0.9955,6.1,0.0134,28236,14972,99.37,99.62,99.79,99.89

@@ -1,0 +1,4 @@
+channel,global_mean,global_std,window_std_median,window_std_p95,min,max,n_samples
+temp_dashboard,30.83703,3.29266,0.10408,0.12056,0.0,38.15638,2161810
+temp_above_suspension,38.0056,3.77071,0.10542,0.12224,0.0,48.31602,2161810
+temp_below_suspension,35.55085,3.68201,0.11312,0.17208,0.0,46.97418,2161810

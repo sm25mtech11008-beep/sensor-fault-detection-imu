@@ -1,0 +1,13 @@
+Feature set,Model,Accuracy,F1 Macro,F1[normal],F1[noise_fault],F1[bias_fault],F1[flatline_fault]
+full (16 feats),HistGradientBoosting,99.67,99.67,99.37,99.63,99.76,99.91
+full (16 feats),Logistic Regression,99.29,99.28,98.63,99.22,99.42,99.86
+full (16 feats),Random Forest,99.63,99.63,99.31,99.64,99.68,99.9
+full (16 feats),XGBoost,99.69,99.68,99.4,99.63,99.8,99.91
+"v1 (8 feats, pruned)",HistGradientBoosting,99.64,99.64,99.31,99.6,99.75,99.91
+"v1 (8 feats, pruned)",Logistic Regression,98.86,98.86,97.89,98.95,98.77,99.81
+"v1 (8 feats, pruned)",Random Forest,99.6,99.6,99.28,99.55,99.66,99.9
+"v1 (8 feats, pruned)",XGBoost,99.64,99.64,99.32,99.57,99.77,99.89
+v1 + spike detectors,HistGradientBoosting,99.66,99.66,99.36,99.61,99.77,99.91
+v1 + spike detectors,Logistic Regression,99.21,99.2,98.5,99.14,99.35,99.83
+v1 + spike detectors,Random Forest,99.64,99.64,99.33,99.62,99.72,99.9
+v1 + spike detectors,XGBoost,99.65,99.65,99.31,99.59,99.77,99.9

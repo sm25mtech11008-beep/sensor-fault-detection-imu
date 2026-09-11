@@ -1,0 +1,5 @@
+Protocol,shared_drives,test_windows,test_overlapping_train,pct_test_overlapping
+random (leaky),18,8642,8305,96.10043971302939
+disjoint windows,18,337,0,0.0
+grouped drives (fold 0),0,9316,0,0.0
+leave-out Fiat Bravo,0,14496,0,0.0
